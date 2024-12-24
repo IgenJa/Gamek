@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <script>
+        function storeButtonText(button) {
+            const text = button.innerText;
+            localStorage.setItem('buttonText', text);
+            location.href = 'download.html';
+        }
+    </script>
+</head>
+<body>
+    <div class="wrap">
+        <button onclick="storeButtonText(this)">Deaths Door</button>
+        <button onclick="storeButtonText(this)">Dune Spice Wars</button>
+        <button onclick="storeButtonText(this)">Hades</button>
+        <button onclick="storeButtonText(this)">Hollow Knight</button>
+        <button onclick="storeButtonText(this)">Samurai Jack Battle Through</button>
+        <button onclick="storeButtonText(this)">Skater XL</button>
+        <button onclick="storeButtonText(this)">Terraria</button>
+        <button onclick="storeButtonText(this)">Vampire Survivors</button>
+        <button onclick="storeButtonText(this)">Heroes 3, alapból HD edition</button>
+        <button onclick="storeButtonText(this)">Hogwarts Legacy</button>
+        <button onclick="storeButtonText(this)">NFS Underground 2</button>
+        <button onclick="storeButtonText(this)">Pacific Drive</button>
+        <button onclick="storeButtonText(this)">Elden Ring</button>
+        <button onclick="storeButtonText(this)">Civ 6</button>
+    </div>
+</body>
+</html>
